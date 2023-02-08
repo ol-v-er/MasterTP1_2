@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMain">
+
+    <Button
+        android:id="@+id/fragment_main_Button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_main_EditText_email"
+        app:layout_constraintStart_toStartOf="@+id/fragment_main_EditText_email"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_main_EditText_password"
+        android:backgroundTint="@color/vertflamboyant"/>
+
+    <EditText
+        android:id="@+id/fragment_main_EditText_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_main_Button_login"
+        app:layout_constraintStart_toStartOf="@+id/fragment_main_EditText_password" />
+
+    <EditText
+        android:id="@+id/fragment_main_EditText_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/mot_de_passe"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="266dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

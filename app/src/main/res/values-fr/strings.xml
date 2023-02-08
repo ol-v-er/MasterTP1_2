@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MasterTP1_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Se connecter</string>
+    <string name="email">Mèl</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="ajouter">Ajouter</string>
+</resources>

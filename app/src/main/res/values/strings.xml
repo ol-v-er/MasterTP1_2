@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MasterTP1_2</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Password</string>
+    <string name="ajouter">Add</string>
+</resources>
